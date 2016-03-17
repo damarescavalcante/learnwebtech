@@ -8,4 +8,79 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ImgLayoutsMain">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">300dp</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="ButtonsLearnMain">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#4FC3F7</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+
+    <style name="LinearLayoutMain">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="TextViewTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_marginTop">20sp</item>
+    </style>
+
+    <!-- Estilização específica do Layout About App -->
+
+    <style name="ButtonsLearnAboutApp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:text">@string/lbl_btn_learn</item>
+        <item name="android:background">#039BE5</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+
+    <style name="ImgAboutApp">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="TextDescriptionAboutApp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+    <style name="LinearLayoutSecondAboutApp">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">#B3E5FC</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="LinearLayoutThirdAboutApp">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_weight">1</item>
+    </style>
 </resources>

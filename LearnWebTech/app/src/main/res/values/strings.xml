@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Learn WebTech</string>
+    <string name="lbl_start">Start</string>
+    <string name="lbl_description_app">The Learn WebTech has objective to teach the main current web technologies, with HTML 5, CSS 3, Bootstrap, JavaScript and JQuery. The application is in the form of a course with an initial content followed by a test in the form of a quiz question and answer.</string>
+    <string name="lbl_description_courses">Below is a summary of each technology that will be covered in the course.</string>
+    <string name="lbl_description_html">description description description description description description description </string>
+    <string name="lbl_description_css">description description description description description description description </string>
+    <string name="lbl_description_bootstrap">description description description description description description description </string>
+    <string name="lbl_description_javascript">description description description description description description description </string>
+    <string name="lbl_description_jquery">description description description description description description description </string>
+    <string name="lbl_btn_learn">Learn</string>
+    <string name="lbl_title_html">Html</string>
+    <string name="lbl_title_css">Css</string>
+    <string name="lbl_title_bootstrap">Bootstrap</string>
+    <string name="lbl_title_javascript">JavaScript</string>
+    <string name="lbl_title_jquery">JQuery</string>
 </resources>

@@ -4,7 +4,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_web1"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -15,6 +15,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".LayoutAboutApp"></activity>
+        <activity android:name=".LayoutInitialHtml"></activity>
+        <activity android:name=".LayoutInitialCss"></activity>
+        <activity android:name=".LayoutInitialBootstrap"></activity>
+        <activity android:name=".LayoutInitialJavascript"></activity>
+        <activity android:name=".LayoutInitialJquery"></activity>
+
+
     </application>
 
 </manifest>
