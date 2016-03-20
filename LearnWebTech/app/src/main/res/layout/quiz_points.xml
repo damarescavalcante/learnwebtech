@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    style="@style/FirstLinearLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        style="@style/ScrollView">
+
+        <LinearLayout
+            style="@style/LinearLayoutMain"
+            android:gravity="center">
+
+                <TextView
+                    android:text="@string/lbl_result"
+                    style="@style/TextViewQuizHtmlLevel1" />
+
+
+                <TextView
+                    android:text="@string/lbl_points"
+                    style="@style/TextViewQuizHtmlLevel1"/>
+
+
+                <TextView
+                    android:text=" "
+                    android:id="@+id/lbl_message_final"
+                    style="@style/TextViewQuestions"/>
+
+
+                <TextView
+                    android:text="0"
+                    android:id="@+id/lbl_points_final"
+                    style="@style/TextViewPoints" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
+    style="@style/FirstLinearLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        
+        style="@style/ScrollView">
+
         <LinearLayout
             style="@style/LinearLayoutMain">
 
@@ -20,120 +17,33 @@
             <TextView
                 style="@style/TextDescriptionAboutApp"
                 android:text="@string/lbl_description_courses" />
-            
+
             <!-- Specific layout to HTML resume -->
+
             <LinearLayout
                 style="@style/LinearLayoutSecondAboutApp">
-                
+
                 <ImageView
                     style="@style/ImgAboutApp"
                     android:src="@drawable/img_html54" />
-                
+
                 <LinearLayout
                     style="@style/LinearLayoutThirdAboutApp" >
-                    
+
                     <TextView
                         android:text="@string/lbl_description_html"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="10dp"/>
-                    
+                        android:layout_marginTop="10dp"
+                        android:textSize="18sp"/>
+
                     <Button
+                        android:id="@+id/btnHtml"
+                        android:onClick="startAnotherActivity"
                         style="@style/ButtonsLearnAboutApp" />
 
                 </LinearLayout>
             </LinearLayout>
-
-
-            <!-- Specific layout to CSS resume -->
-            <LinearLayout
-                style="@style/LinearLayoutSecondAboutApp">
-
-                <ImageView
-                    style="@style/ImgAboutApp"
-                    android:src="@drawable/img_css32" />
-
-                <LinearLayout
-                    style="@style/LinearLayoutThirdAboutApp" >
-                    
-                    <TextView
-                        android:text="@string/lbl_description_css"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
-
-                    <Button
-                        style="@style/ButtonsLearnAboutApp" />
-
-                </LinearLayout>
-            </LinearLayout>
-
-            <!-- Specific layout to BOOTSTRAP resume -->
-            <LinearLayout
-                style="@style/LinearLayoutSecondAboutApp">
-
-                <ImageView
-                    style="@style/ImgAboutApp"
-                    android:src="@drawable/img_bootstrap" />
-
-                <LinearLayout
-                    style="@style/LinearLayoutThirdAboutApp" >
-
-                    <TextView
-                        android:text="@string/lbl_description_css"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
-
-                    <Button
-                        style="@style/ButtonsLearnAboutApp" />
-
-                </LinearLayout>
-            </LinearLayout>
-
-            <!-- Specific layout to JAVASCRIPT resume -->
-            <LinearLayout
-                style="@style/LinearLayoutSecondAboutApp">
-
-                <ImageView
-                    style="@style/ImgAboutApp"
-                    android:src="@drawable/img_js7" />
-
-                <LinearLayout
-                    style="@style/LinearLayoutThirdAboutApp" >
-
-                    <TextView
-                        android:text="@string/lbl_description_css"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
-
-                    <Button
-                        style="@style/ButtonsLearnAboutApp" />
-
-                </LinearLayout>
-            </LinearLayout>
-
-            <!-- Specific layout to JQUERY resume -->
-            <LinearLayout
-                style="@style/LinearLayoutSecondAboutApp">
-
-                <ImageView
-                    style="@style/ImgAboutApp"
-                    android:src="@drawable/img_jquery2" />
-
-                <LinearLayout
-                     style="@style/LinearLayoutThirdAboutApp">
-
-                    <TextView
-                        android:text="@string/lbl_description_css"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
-
-                    <Button
-                        style="@style/ButtonsLearnAboutApp" />
-
-                </LinearLayout>
-            </LinearLayout>
-            
-            
         </LinearLayout>
 
     </ScrollView>

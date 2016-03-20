@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/FirstLinearLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        style="@style/ScrollView">
+
+        <LinearLayout
+            style="@style/LinearLayoutMain">
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:text="@string/lbl_title_html"
+                        style="@style/TextViewTopicTitle" />
+
+                    <TextView
+                        android:text="@string/lbl_btn_quiz"
+                        style="@style/TextViewQuizHtmlLevel1" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/lbl_html_quiz_question3"
+                style="@style/TextViewQuestions" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/quiz_html_option3_1"
+                    android:text="@string/lbl_html_quiz_option3_1"
+                    style="@style/TextViewOptions" />
+
+
+                <RadioButton
+                    android:id="@+id/quiz_html_option3_2"
+                    android:text="@string/lbl_html_quiz_option3_2"
+                    style="@style/TextViewOptions" />
+
+            </RadioGroup>
+
+            <Button
+                style="@style/Buttons"
+                android:onClick="continueQuiz"
+                android:text="@string/lbl_btn_continue" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

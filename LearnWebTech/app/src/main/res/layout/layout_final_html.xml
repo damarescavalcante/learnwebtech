@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FirstLinearLayout">
+
+    <ScrollView
+        style="@style/ScrollView">
+
+        <LinearLayout
+            style="@style/LinearLayoutMain" >
+
+            <TextView
+                android:text="@string/lbl_title_html"
+                style="@style/TextViewTitle" />
+
+
+            <TextView
+                android:text="@string/lbl_history_html"
+                style="@style/TextViewDescriptionTopic"/>
+
+            <!-- list itens characteristics -->
+
+            <TextView
+                style="@style/TextViewTopicTitle"
+                android:text="@string/lbl_title_characteristics_html" />
+
+            <TextView
+                style="@style/TextViewItenList"
+                android:text="@string/lbl_item_list_one" />
+
+            <TextView
+                style="@style/TextViewItenList"
+                android:text="@string/lbl_item_list_two" />
+
+            <TextView
+                style="@style/TextViewItenList"
+                android:text="@string/lbl_item_list_three" />
+
+            <TextView
+                style="@style/TextViewItenList"
+                android:text="@string/lbl_item_list_four" />
+
+            <!-- list itens tags -->
+
+            <TextView
+                style="@style/TextViewTopicTitle"
+                android:text="@string/lbl_title_tags_html" />
+
+            <TextView
+                style="@style/TextViewItenList"
+                android:text="@string/lbl_item_list_one_tag" />
+
+            <TextView
+                style="@style/TextViewItenList"
+                android:text="@string/lbl_item_list_two_tag" />
+
+            <TextView
+                style="@style/TextViewItenList"
+                android:text="@string/lbl_item_list_three_tag" />
+
+            <TextView
+                style="@style/TextViewItenList"
+                android:text="@string/lbl_item_list_four_tag" />
+
+            <TextView
+                style="@style/TextViewItenList"
+                android:text="@string/lbl_item_list_five_tag" />
+
+
+            <!-- structure basic document html -->
+
+            <TextView
+                style="@style/TextViewTopicTitle"
+                android:text="@string/lbl_structure_document_html"/>
+
+            <TextView
+                style="@style/TextViewDescriptionTopic"
+                android:text="@string/lbl_structure_description_html"/>
+
+            <TextView
+                style="@style/TextViewItenList"
+                android:text="@string/lbl_item_list_one_structure"/>
+
+            <TextView
+                style="@style/TextViewItenList"
+                android:text="@string/lbl_item_list_two_structure"/>
+
+            <TextView
+                style="@style/TextViewItenList"
+                android:text="@string/lbl_item_list_three_structure"/>
+
+            <TextView
+                style="@style/TextViewDescriptionTopic"
+                android:text="@string/lbl_structure_html_example"/>
+
+            <TextView
+                style="@style/TextViewTopicTitle"
+                android:text="@string/lbl_understanding_structure"/>
+
+            <TextView
+                style="@style/TextViewDescriptionTopic"
+                android:text="@string/lbl_structure_explanation"/>
+
+
+            <!-- initial developing -->
+            <TextView
+                style="@style/TextViewTopicTitle"
+                android:text="@string/lbl_developing"/>
+
+            <TextView
+                style="@style/TextViewItenList"
+                android:text="@string/lbl_developing_list_one"/>
+
+            <TextView
+                style="@style/TextViewItenList"
+                android:text="@string/lbl_developing_list_two"/>
+
+            <TextView
+                style="@style/TextViewItenList"
+                android:text="@string/lbl_developing_list_three"/>
+
+            <TextView
+                style="@style/TextViewItenList"
+                android:text="@string/lbl_developing_list_four"/>
+
+
+            <!-- initial developing -->
+            <TextView
+                android:text="@string/lbl_html_fundamentals"
+                style="@style/TextViewTopicTitle" />
+
+
+            <!-- HTML Headings -->
+
+            <TextView
+                android:text="@string/lbl_html_headings"
+                style="@style/TextViewTopicTitle" />
+
+            <TextView
+                android:text="@string/lbl_html_headings_description"
+                style="@style/TextViewDescriptionTopic"/>
+
+            <TextView
+                android:text="@string/lbl_examples"
+                style="@style/TextViewDescriptionTopic"/>
+
+
+            <TextView
+                android:text="@string/lbl_html_headings_example"
+                style="@style/TextViewExampleFundamentals"/>
+
+            <TextView
+                android:text="@string/lbl_example_preview"
+                style="@style/TextViewDescriptionTopic" />
+
+            <ImageView
+                android:src="@drawable/img_ex_headings1"
+                style="@style/ImgFundamentals" />
+
+            <!-- HTML Paragraphs -->
+
+            <TextView
+                android:text="@string/lbl_html_paragraphs"
+                style="@style/TextViewTopicTitle" />
+
+            <TextView
+                android:text="@string/lbl_html_paragraphs_description"
+                 style="@style/TextViewDescriptionTopic"/>
+
+            <TextView
+                android:text="@string/lbl_examples"
+                style="@style/TextViewDescriptionTopic"/>
+
+            <TextView
+                android:text="@string/lbl_html_paragraphs_example"
+                style="@style/TextViewExampleFundamentals"/>
+
+            <TextView
+                android:text="@string/lbl_example_preview"
+                style="@style/TextViewDescriptionTopic" />
+
+            <ImageView
+                android:src="@drawable/img_ex_paragraphs1"
+                style="@style/ImgFundamentals" />
+
+            <!-- HTML Links -->
+
+            <TextView
+                android:text="@string/lbl_html_links"
+                style="@style/TextViewTopicTitle" />
+
+            <TextView
+                android:text="@string/lbl_html_links_description"
+                style="@style/TextViewDescriptionTopic"/>
+
+            <TextView
+                android:text="@string/lbl_examples"
+                style="@style/TextViewDescriptionTopic"/>
+
+            <TextView
+                android:text="@string/lbl_html_links_example"
+                style="@style/TextViewExampleFundamentals"/>
+
+            <TextView
+                android:text="@string/lbl_example_preview"
+                style="@style/TextViewDescriptionTopic" />
+
+
+            <ImageView
+                android:src="@drawable/img_ex_links1"
+                style="@style/ImgFundamentals" />
+
+            <!-- HTML Images -->
+
+            <TextView
+                android:text="@string/lbl_html_images"
+                style="@style/TextViewTopicTitle" />
+
+            <TextView
+                android:text="@string/lbl_html_images_description"
+                style="@style/TextViewDescriptionTopic"/>
+
+            <TextView
+                android:text="@string/lbl_examples"
+                style="@style/TextViewDescriptionTopic"/>
+
+            <TextView
+                android:text="@string/lbl_html_images_example"
+                style="@style/TextViewExampleFundamentals"/>
+
+            <TextView
+                android:text="@string/lbl_example_preview"
+                style="@style/TextViewDescriptionTopic" />
+
+            <ImageView
+                android:src="@drawable/img_ex_images1"
+                style="@style/ImgFundamentals" />
+
+            <!-- HTML Comments -->
+
+            <TextView
+                android:text="@string/lbl_html_comments"
+                style="@style/TextViewTopicTitle" />
+
+            <TextView
+                android:text="@string/lbl_html_comments_description"
+                style="@style/TextViewDescriptionTopic"/>
+
+            <TextView
+                android:text="@string/lbl_examples"
+                style="@style/TextViewDescriptionTopic"/>
+
+            <TextView
+                android:text="@string/lbl_html_comments_example"
+                style="@style/TextViewExampleFundamentals"/>
+
+            <TextView
+                android:text="@string/lbl_example_preview"
+                style="@style/TextViewDescriptionTopic" />
+
+            <ImageView
+                android:src="@drawable/img_ex_comments1"
+                style="@style/ImgFundamentals" />
+
+            <!-- HTML Attributes -->
+
+            <TextView
+                android:text="@string/lbl_html_attributes"
+                style="@style/TextViewTopicTitle" />
+
+            <TextView
+                android:text="@string/lbl_html_attributes_description"
+                style="@style/TextViewDescriptionTopic"/>
+
+            <TextView
+                android:text="@string/lbl_html_attributes_list_one"
+                style="@style/TextViewItenList"/>
+
+            <TextView
+                android:text="@string/lbl_html_attributes_list_two"
+                style="@style/TextViewItenList" />
+
+            <TextView
+                android:text="@string/lbl_html_attributes_list_three"
+                style="@style/TextViewItenList" />
+
+            <TextView
+                android:text="@string/lbl_html_attributes_list_four"
+                style="@style/TextViewItenList" />
+
+
+            <!-- HTML Attributes values-->
+
+            <TextView
+                android:text="@string/lbl_html_attributes_value"
+                style="@style/TextViewTopicTitle" />
+
+            <TextView
+                android:text="@string/lbl_html_attr_value_description"
+                style="@style/TextViewDescriptionTopic" />
+
+            <TextView
+                android:text="@string/lbl_examples"
+                style="@style/TextViewDescriptionTopic"/>
+
+            <TextView
+                android:text="@string/lbl_html_attributes_example"
+                style="@style/TextViewExampleFundamentals" />
+
+            <TextView
+                android:text="@string/lbl_example_preview"
+                style="@style/TextViewDescriptionTopic" />
+
+            <ImageView
+                android:src="@drawable/img_ex_links2"
+                style="@style/ImgFundamentals" />
+
+
+            <Button
+                android:text="@string/lbl_btn_quiz"
+                style="@style/Buttons"
+                android:onClick="startAnotherActivity"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+

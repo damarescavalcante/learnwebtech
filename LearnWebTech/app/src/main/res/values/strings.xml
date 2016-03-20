@@ -1,17 +1,150 @@
-<resources>
+<resources xmlns:xliff="http://schemas.android.com/tools">
     <string name="app_name">Learn WebTech</string>
     <string name="lbl_start">Start</string>
-    <string name="lbl_description_app">The Learn WebTech has objective to teach the main current web technologies, with HTML 5, CSS 3, Bootstrap, JavaScript and JQuery. The application is in the form of a course with an initial content followed by a test in the form of a quiz question and answer.</string>
-    <string name="lbl_description_courses">Below is a summary of each technology that will be covered in the course.</string>
-    <string name="lbl_description_html">description description description description description description description </string>
-    <string name="lbl_description_css">description description description description description description description </string>
-    <string name="lbl_description_bootstrap">description description description description description description description </string>
-    <string name="lbl_description_javascript">description description description description description description description </string>
-    <string name="lbl_description_jquery">description description description description description description description </string>
+    <string name="lbl_description_app">The Learn WebTech app has objective to teach the main current web language, what is HTML 5. The application is in the form of a course with an initial content followed by a test in the form of a quiz question and answer with alternatives.</string>
+    <string name="lbl_description_courses">Below is a summary of language that will be covered in the course.</string>
+    <string name="lbl_description_html"> HTML is short for HyperText Markup Language, language for marking used to build web pages&#8230; </string>
     <string name="lbl_btn_learn">Learn</string>
+    <string name="lbl_btn_correct">Correct</string>
+    <string name="lbl_btn_continue">Continue</string>
+    <string name="lbl_points">Points</string>
+    <string name="lbl_btn_quiz">Quiz</string>
+    <string name="lbl_examples">Example:</string>
     <string name="lbl_title_html">Html</string>
-    <string name="lbl_title_css">Css</string>
-    <string name="lbl_title_bootstrap">Bootstrap</string>
-    <string name="lbl_title_javascript">JavaScript</string>
-    <string name="lbl_title_jquery">JQuery</string>
+    <string name="lbl_result">Result</string>
+
+
+    <!-- strings specifics layout final html -->
+
+        <!-- list itens characteristics -->
+
+    <string name="lbl_history_html">HTML is short for HyperText Markup Language, language for marking used to build web pages. HTML documents can be interpreted by browsers. \n\nHTML is based on the concept of hypertext. Hypertext are sets of elements, or we, linked by connections. These elements can be words, images, videos, audio, documents, etc. These elements connected form a large information network. \n\nTo distribute information in a global way, there must be a language that is universally understood by various means of access. HTML is proposed to this language. Originally developed by Tim Berners-Lee HTML gained popularity when the Mosaic - browser developed by Marc Andreessen in the 1990s, has gained strength. From there, developers and browser makers used the HTML based, sharing the same conventions.</string>
+    <string name="lbl_title_characteristics_html">1. Characteristics</string>
+    <string name="lbl_item_list_one">&#8227; HTML stands for HyperText Markup Language.</string>
+    <string name="lbl_item_list_two">&#8227; HTML is not a programming language, it is a markup language.</string>
+    <string name="lbl_item_list_three">&#8227; A markup language is a collection of markup tags.</string>
+    <string name="lbl_item_list_four">&#8227; HTML uses markup tags to describe Web pages.</string>
+
+
+        <!-- list itens tags -->
+
+    <string name="lbl_title_tags_html">2. Tags</string>
+    <string name="lbl_item_list_one_tag">&#8227; HTML markup tags are usually called HTML tags or just tags.</string>
+    <string name="lbl_item_list_two_tag">&#8227; HTML tags are keywords surrounded by angle brackets like &lt;html&gt;.</string>
+    <string name="lbl_item_list_three_tag">&#8227; HTML tags normally come in pairs, like &lt;b&gt; and &lt;/b&gt;.</string>
+    <string name="lbl_item_list_four_tag">&#8227; The first tag in a pair is the start tag; the second tag is the end tag.</string>
+    <string name="lbl_item_list_five_tag">&#8227; Start and end tags are also called opening tags and closing tags.</string>
+
+        <!-- structure -->
+
+    <string name="lbl_structure_document_html">3. Basic structure of an HTML document</string>
+    <string name="lbl_structure_description_html">First of all, it is important to bear in mind that:</string>
+    <string name="lbl_item_list_one_structure">&#8227; HTML documents describe Web pages.</string>
+    <string name="lbl_item_list_two_structure">&#8227; HTML documents contain HTML tags and plain text.</string>
+    <string name="lbl_item_list_three_structure">&#8227; HTML documents are also called Web pages.</string>
+    <string name="lbl_structure_html_example"> The purpose of a Web browser is interpret HTML tags and display the your contents. \n\nExample: \n\n&lt;html&gt;\n&lt;head&gt;\n&lt;title&gt;This is title the page&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;h1&gt;This is title the page&lt;/h1&gt;\n&lt;/body&gt;\n&lt;/html&gt;</string>
+
+    <string name="lbl_understanding_structure">4. Understanding the structure</string>
+    <string name="lbl_structure_explanation">Your browser will interpret the html tags above. The opening tag &lt;html&gt; and closing &lt;/html&gt; serve to tell the browser that this is an HTML document. The &lt;head&gt; &lt;/head&gt; serve to set rules and formatting to the document, such as a title, coding, import scripts and libraries, etc. \n\nIt is important to know that all that stay within the &lt;head&gt; tag is not visible to the user, except for the &lt;title&gt; tag is the text that is on the page tab. Already, the &lt;body&gt; &lt;/body&gt; defines all that is visible to the user, such as text, audio, images, tables, and everything we can find on a web page.</string>
+
+
+    <string name="lbl_developing">5. What you need to start developing HTML ?</string>
+    <string name="lbl_developing_list_one">&#8227; HTML editor, with Notepad, Gedit, Sublime Text, Atom, etc.</string>
+    <string name="lbl_developing_list_two">&#8227; Basic knowledge of html tags.</string>
+    <string name="lbl_developing_list_three">&#8227; Web browser to test the html pages.</string>
+    <string name="lbl_developing_list_four">&#8227; Save the document with the .html extension.</string>
+
+
+    <!-- HTML Fundamentals -->
+    <string name="lbl_html_fundamentals">6. Fundamentals</string>
+    <string name="lbl_example_preview">Preview in browser:</string>
+
+
+    <!-- HTML Headings -->
+    <string name="lbl_html_headings">HTML Headings</string>
+    <string name="lbl_html_headings_description">Because users may skim your pages by their headings, it is important to use headings to show the document structure. Headings are defined, from largest to smallest, with the &lt;h1&gt; to &lt;h6&gt; tags.</string>
+    <string name="lbl_html_headings_example">&lt;h1&gt;This is a Heading 1&lt;/h1&gt;\n&lt;h2&gt;This is a Heading 2&lt;/h2&gt;\n&lt;h3&gt;This is a Heading 3&lt;/h3&gt;\n&lt;h4&gt;This is a Heading 4&lt;/h4&gt;\n&lt;h5&gt;This is a Heading 5&lt;/h5&gt;\n&lt;h6&gt;This is a Heading 6&lt;/h6&gt;</string>
+
+
+    <!-- HTML Paragraphs -->
+    <string name="lbl_html_paragraphs">HTML Paragraphs</string>
+    <string name="lbl_html_paragraphs_description">HTML paragraphs are defined with the &lt;p&gt; tag. Most browsers automatically put a line break and space after a &lt;/p&gt; tag.</string>
+    <string name="lbl_html_paragraphs_example">&lt;html&gt;\n&lt;body&gt;\n&lt;p&gt;This is a paragraph 1.&lt;/p&gt;\n&lt;p&gt;This is a paragraph 2 .&lt;/p&gt;\n&lt;p&gt;This is a paragraph 3.&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;</string>
+
+
+    <!-- HTML Links -->
+    <string name="lbl_html_links">HTML Links</string>
+    <string name="lbl_html_links_description">HTML links are defined with the &lt;a&gt; tag.</string>
+    <string name="lbl_html_links_example">&lt;html&gt;\n&lt;body&gt;\n&lt;a href="http://www.w3schools.com"&gt;This is a link to the w3schools Web site.&lt;/a&gt;\n&lt;/body&gt;\n&lt;/html&gt;</string>
+
+
+    <!-- HTML Images -->
+    <string name="lbl_html_images">HTML Images</string>
+    <string name="lbl_html_images_description">HTML images are defined with the &lt;img&gt; tag. It tells the browser where to find the image file and what size to display it, among other things.</string>
+    <string name="lbl_html_images_example">&lt;html&gt;\n&lt;body&gt;\n&lt;img src="w3schools.jpg" width="104" height="142" /&gt;\n&lt;/body&gt;\n&lt;/html&gt;</string>
+
+
+    <!-- HTML Comments -->
+    <string name="lbl_html_comments">HTML Comments</string>
+    <string name="lbl_html_comments_description">Comments can be inserted in the HTML code to make it more readable and understandable. Comments are ignored by the browser and are not displayed.</string>
+    <string name="lbl_html_comments_example">&lt;html&gt;\n&lt;body&gt;\n&lt;!--This comment will not be displayed--&gt;\n&lt;p&gt;This is a regular paragraph&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;</string>
+
+
+    <!-- Attributes -->
+    <string name="lbl_html_attributes">7. HTML Attributes</string>
+
+
+    <string name="lbl_html_attributes_description">Attributes provide additional information about HTML elements.</string>
+    <string name="lbl_html_attributes_list_one">&#8227; HTML elements can have attributes.</string>
+    <string name="lbl_html_attributes_list_two">&#8227; Attributes provide additional information about the element.</string>
+    <string name="lbl_html_attributes_list_three">&#8227; Attributes are always specified in the start tag.</string>
+    <string name="lbl_html_attributes_list_four">&#8227; Attributes come in name/value pairs like: name=”value”.</string>
+
+    <string name="lbl_html_attributes_value">Defining Attribute Values</string>
+    <string name="lbl_html_attr_value_description" translatable="false">Attribute values should always be enclosed within quotation marks. While "<xliff:g>\"</xliff:g>"double quotes"<xliff:g>\"</xliff:g>" are the most common, single-style quotes (also called  primes) are also allowed. In some rare situations, like when the attribute value itself includes quotation marks, it is necessary to use primes. For example: name="<xliff:g>\'</xliff:g>"John "<xliff:g>\"</xliff:g>"Shotgun"<xliff:g>\"</xliff:g>" Nelson"<xliff:g>\'</xliff:g>". \n\nAs another example, HTML links are defined with the &lt;a&gt; tag. The Web address, surrounded by quotation marks, is the value of the attribute of the link element.</string>
+    <string name="lbl_html_attributes_example">&lt;a href="http://www.w3schools.com"&gt;This is a link&lt;/a&gt; to the w3schools Web site.</string>
+
+
+    <!-- questions quiz -->
+
+    <string name="lbl_html_quiz_question1">Question 1 - About HTML 5: </string>
+    <string name="lbl_html_quiz_option1_1">Is a language for marking used to build web pages.</string>
+    <string name="lbl_html_quiz_option1_2">Is a language for marking used to stylization web pages.</string>
+
+    <string name="lbl_html_quiz_question2">Question 2 - About HTML tags:</string>
+    <string name="lbl_html_quiz_option2_1">The html tags are interpreted by the browser, which displays its contents.</string>
+    <string name="lbl_html_quiz_option2_2">The html tags are interpreted by the browser, which displays the tags and their content.</string>
+
+    <string name="lbl_html_quiz_question3">Question 3 - About the basic structure of an HTML document:</string>
+    <string name="lbl_html_quiz_option3_1">The tags are part of the basic structure of an HTML document is &lt;html&gt;, &lt;head&gt; and &lt;body&gt;.</string>
+    <string name="lbl_html_quiz_option3_2">The tags are part of the basic structure of an HTML document is &lt;html&gt;, &lt;head&gt; and &lt;title&gt;</string>
+
+    <string name="lbl_html_quiz_question4">Question 4 - About the structure definition of start and end tags.</string>
+    <string name="lbl_html_quiz_option4_1">The structure of the opening and closing tags correspond respectively to the &lt;/html&gt; and &lt;html&gt;.</string>
+    <string name="lbl_html_quiz_option4_2">The structure of the opening and closing tags correspond respectively to the &lt;html&gt; and &lt;/html&gt;.</string>
+
+    <string name="lbl_html_quiz_question5">Question 5 - About the tags of the basic structure of an HTML document:</string>
+    <string name="lbl_html_quiz_option5_1">The &lt;html&gt; tag tells the browser to that document is of type HTML . Your child tags are &lt;head&gt; and &lt;body&gt;, which serve respectively to set import scripts, and display content to the user.</string>
+    <string name="lbl_html_quiz_option5_2">The &lt;html&gt; tag tells the browser to that document is of type HTML . Your child tags are &lt;head&gt; and &lt;body&gt;, which serve respectively to display content to the user and set coding rules, for example.</string>
+
+    <string name="lbl_html_quiz_question6">Question 6 - About the extension of a html document:</string>
+    <string name="lbl_html_quiz_option6_1">HTML documents should have the .html extension, so that the browser can interpret the document as a hmtl page.</string>
+    <string name="lbl_html_quiz_option6_2">html document should be .web extension, so that the web browser can interpret the document and display to the user.</string>
+
+    <string name="lbl_html_quiz_question7">Question 7 - About the types of additional tags that can be incorporated into the element: </string>
+    <string name="lbl_html_quiz_option7_1">The &lt;title&gt; tag defines the main header of a web page to be displayed to the user .</string>
+    <string name="lbl_html_quiz_option7_2">The &lt;p&gt; tag defines paragraphs in a document &lt;html&gt;, and are always placed in the &lt;body&gt; of the document.</string>
+
+    <string name="lbl_html_quiz_question8">Question 8 - About &lt;a&gt; tag:</string>
+    <string name="lbl_html_quiz_option8_1">It"<xliff:g>\'</xliff:g>"s a tag for defining hyperlinks within an HTML document, the attribute that defines the path of the link is the href. For example &lt;a href="http://www.google.com.br"&gt; Google &lt;/a&gt;.</string>
+    <string name="lbl_html_quiz_option8_2">It"<xliff:g>\'</xliff:g>"s a tag for defining hyperlinks within an HTML document, the attribute that defines the path of the link is called the link. For examploe &lt;a link="http://www.google.com.br"&gt; Google &lt;/a&gt;.</string>
+
+    <string name="lbl_html_quiz_question9">Question 9 - About attribute values:</string>
+    <string name="lbl_html_quiz_option9_1">The values ​​for attributes such as name and href must be defined in single quotes "<xliff:g>\'</xliff:g>" or double "<xliff:g>\"</xliff:g>".</string>
+    <string name="lbl_html_quiz_option9_2">The values ​​for attributes such as name and href should be defined between signs &lt; and &gt;.</string>
+
+    <string name="lbl_html_quiz_question10">Question 10 - About comments in an HTML document:</string>
+    <string name="lbl_html_quiz_option10_1">Comments in HTML are defined in &lt;-- comment --&gt; being ignored by the browser.</string>
+    <string name="lbl_html_quiz_option10_2">Comments in HTML are defined between &lt;!-- Comment --&gt; being ignored by the browser.</string>
+
 </resources>

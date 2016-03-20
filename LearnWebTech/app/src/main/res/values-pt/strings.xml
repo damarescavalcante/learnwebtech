@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    <string name="app_name">Learn WebTech</string>
+    <string name="lbl_btn_continue">Continuar</string>
+    <string name="lbl_btn_correct">Corrigir</string>
+    <string name="lbl_btn_learn">Aprender</string>
+    <string name="lbl_btn_quiz">Quiz</string>
+    <string name="lbl_examples">Exemplo:</string>
+    <string name="lbl_example_preview">Visualização no browser:</string>
+    <string name="lbl_developing_list_two">‣ Conhecimentos básico de tags html.</string>
+    <string name="lbl_developing_list_three">‣ Browser web para testar as páginas html.</string>
+    <string name="lbl_developing_list_four">‣ Salvar o documento com a extensão .html.</string>
+    <string name="lbl_developing">5. O que você precisa para iniciar desenvolvendo HTML?</string>
+    <string name="lbl_description_html">HTML é a abreviação de HyperText Markup Language (Linguagem de Marcação de Hipertexto), que é uma linguagem utilizada na construção de páginas web…</string>
+    <string name="lbl_description_app">O aplicativo Learn WebTech tem o objetivo de ensinar a principal linguagem web atual, que é o HTML 5. A aplicação está no formato de um curso, com um conteúdo inicial, seguido de um quiz de perguntas e respostas com alternativas.</string>
+    <string name="lbl_description_courses">Abaixo tem-se um resumo da language que será abordada no curso.</string>
+    <string name="lbl_developing_list_one">‣ Editor HTML, como Notepad, Gedit, Sublime Text, Atom e etc.</string>
+    <string name="lbl_html_attributes">7. Atributos HTML</string>
+    <string name="lbl_html_attributes_description">Atributos fornecem informações adicionais sobre elementos HTML.</string>
+    <string name="lbl_html_attr_value_description">Os valores dos atributos, podem já ser incluído dentro das aspas. Como "<xliff:g>\"</xliff:g>"aspas duplas"<xliff:g>\"</xliff:g>"</string>
+    <string name="lbl_history_html">HTML é uma abreviação de HyperText Markup Language (Linguagem de Marcação de Hipertexto), que é uma linguagem para marcação utilizada na construção de páginas web. Documentos HTML pode ser interpretados por browsers. \n\nO HTML é baseado no conceito de hipertexto. Hipertextos são um conjunto de elementos, ou nós, ligados por conexões. Esses elementos podem ser palavras, imagens, vídeos, áudios, documentos e etc. Esses elementos são conectados através de uma imensa rede de informação. \n\nPara distribuir a informação de forma global, era necessário uma linguagem que fosse universalmente entendida pelos vários meios de acesso. O HTML se propôs a ser essa linguagem. Originalmente foi desenvolvido por Tim Berners-Lee, e logo ganhou popularidade com o Mosaic -  browser devenvolvido por Marc Andreessen em 1990, ganhando força. Depois disso, desenvolvedores e fabricantes de browser passaram a usar o HTML como base, e compartilhando as mesmas convenções.</string>
+    <string name="lbl_html_attributes_example"><![CDATA[<a href="http://www.w3schools.com">Esse é o link</a> do site w3schools.]]></string>
+    <string name="lbl_html_attributes_list_four">‣ Atributos podem ter pares nome/valor como: name=”value”.</string>
+    <string name="lbl_html_attributes_list_one">‣ Elementos HTML pode ter atributos.</string>
+    <string name="lbl_points">Pontos</string>
+    <string name="lbl_result">Resultado</string>
+    <string name="lbl_start">Iniciar</string>
+    <string name="lbl_structure_description_html">Antes de mais nada, é importante ter em mente que:</string>
+    <string name="lbl_structure_document_html">3. Estrutura básica de um documento HTML</string>
+    <string name="lbl_title_characteristics_html">1. Características</string>
+    <string name="lbl_title_html">Html</string>
+    <string name="lbl_title_tags_html">2. Tags</string>
+    <string name="lbl_understanding_structure">4. Entendendo a estrutura</string>
+    <string name="lbl_structure_html_example"><![CDATA[O próposito de um browser web é interpretar tags HTML e exibir o seu conteúdo. \n\nExemplo: \n\n<html>\n<head>\n<title>Esse é o título da página</title>\n</head>\n<body>\n<h1>Esse é o cabeçalho da página</h1>\n</body>\n</html>]]></string>
+    <string name="lbl_html_attributes_value">Definindo valores de atributos</string>
+    <string name="lbl_html_comments">Comentários HTML</string>
+    <string name="lbl_html_comments_description">Comentários podem ser inseridos no código HTML para torná-lo mais legível e compreensível. Os comentários são ignorados pelo browser web e não exibidos.</string>
+    <string name="lbl_html_fundamentals">6. Fundamentos</string>
+    <string name="lbl_html_headings">Cabeçalhos HTML</string>
+    -->
+</resources>

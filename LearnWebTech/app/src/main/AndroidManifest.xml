@@ -8,7 +8,8 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -16,13 +17,26 @@
             </intent-filter>
         </activity>
 
+        <!-- Initial layout for exhibition technology -->
         <activity android:name=".LayoutAboutApp"></activity>
-        <activity android:name=".LayoutInitialHtml"></activity>
-        <activity android:name=".LayoutInitialCss"></activity>
-        <activity android:name=".LayoutInitialBootstrap"></activity>
-        <activity android:name=".LayoutInitialJavascript"></activity>
-        <activity android:name=".LayoutInitialJquery"></activity>
 
+        <!-- Initial layout for exhibition content technology -->
+        <activity android:name=".LayoutFinalHtml"></activity>
+
+        <!-- quiz layouts -->
+        <activity android:name=".QuizHtmlQuestion1"></activity>
+        <activity android:name=".QuizHtmlQuestion2"></activity>
+        <activity android:name=".QuizHtmlQuestion3"></activity>
+        <activity android:name=".QuizHtmlQuestion4"></activity>
+        <activity android:name=".QuizHtmlQuestion5"></activity>
+        <activity android:name=".QuizHtmlQuestion6"></activity>
+        <activity android:name=".QuizHtmlQuestion7"></activity>
+        <activity android:name=".QuizHtmlQuestion8"></activity>
+        <activity android:name=".QuizHtmlQuestion9"></activity>
+        <activity android:name=".QuizHtmlQuestion10"></activity>
+
+        <!-- quiz points -->
+        <activity android:name=".QuizPoints"></activity>
 
     </application>
 
