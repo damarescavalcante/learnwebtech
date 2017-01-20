@@ -38,14 +38,17 @@ Steps to installing the application:
 10. At the end, he will see his total score hits.
 
 
+
 ---------- Portuguese -------------------
+
+
 Passos para instalação do aplicativo:
 
-1. Caso o usuário queira instalar o aplicativo a partir de um emulador, basta ter o SDK do android instalado no seu pc. Para baixar e instalar o SDK basta os passos do link abaixo:
+1. Caso o usuário queira instalar o aplicativo a partir de um emulador, basta ter o SDK do android instalado no seu computador. Para baixar e instalar o SDK basta seguir os passos do link abaixo:
 
 	http://developer.android.com/intl/pt-br/sdk/installing/index.html
 
-2. Caso o usuário queira testar o aplicativo a partir do seu próprio celular, basta habilitar o modo de desenvolvedor e instalar o adb no seu pc. Ambos os passos pode ser conferidos nos links abaixo:
+2. Caso o usuário queira testar o aplicativo a partir do seu próprio celular, basta habilitar o modo de desenvolvedor e instalar o adb no seu computador. Ambos os passos pode ser conferidos nos links abaixo:
 
 	- Habilitar modo desenvolvedor:
 
@@ -58,16 +61,16 @@ Passos para instalação do aplicativo:
 
 3. Após isso, basta iniciar o aplicativo.
 
-4. Após iniciado o aplicativo o usuário verá a tela inicial do aplicativo, e para seguir para a descrição do mesmo, basta clicar em "Começar".
+4. Após iniciado o aplicativo o usuário verá a tela inicial do aplicativo, e posteriormente basta clicar em "Começar".
 
 5. Após isso, terá um resumo sobre o aplicativo e sobre a tecnologia que será abordada. Para prosseguir bastar clicar em "Aprender".
 
 6. Após isso, o usuário será encaminhado para uma tela, onde terá todo o conteúdo correspondente ao HTML. Depois de ler todo o conteúdo, basta clicar em Quiz.
 
-7. O QUIZ será um jogo de perguntas e respostas onde o usuário pode testar todo o seu conhecimento a respeito do que foi aprendido durante o curso. 
+7. O QUIZ será um jogo de perguntas e respostas onde o usuário poderá testar todo o seu conhecimento a respeito do que foi aprendido durante o curso. 
 
-8. Ao todo o quiz será composto de um jogo de 10 perguntas, cada uma valendo 1 pontos.
+8. Ao todo o quiz será composto de um jogo de 10 perguntas. Cada pergunta vale 1 ponto.
 
-9. Para ir processindo durante as perguntas o usuário deve selecionar pelo menos um dos radios button e clicar em "Continuar".
+9. Para prosseguir durante as perguntas o usuário deverá selecionar pelo menos um dos radios button e clicar em "Continuar".
 
 10. Ao final, ele verá sua pontuação total de acertos.
